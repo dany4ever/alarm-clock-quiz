@@ -1,5 +1,3 @@
-package alarmClockQuiz;
-
 /*
  * Copyright 2013 Rocky Mountain High School Technical Student Association
  *
@@ -19,8 +17,9 @@ package alarmClockQuiz;
  * All resources for alarm-clock-quiz including: source code, compiled jar, documentation, and source
  * notes are available at <https://code.google.com/p/alarm-clock-quiz/>.
  */
+package alarmClockQuiz;
 /**This object holds the questions the alarm clock displays. 
- * @author Micah Gale micah.gale@gmail.com
+ * @author  Rocky Mountain Technical student Association (Cesar Cortez, Micah Gale micah.gale@gmail.com, Brad Whitesell) 
  * @version 0.05
  * @since 21 December 2012
  */
@@ -62,7 +61,32 @@ public class question {
         int random = (int)(Math.random()*display.length);  //randomly generates a location for the correct answer
         this.displayCorrect = (short)random;                      //stores the display of the correct answer
         display[random]= this.answers[this.correct];      //inserts the correct answer
-        this.displays[random]=correct;                   //sets up the link for the correct answer
+        this.displays[random]=this.correct;                   //sets up the link for the correct answer
+        do {
+            random=(int)(Math.random()*display.length);  //get another random which isn't the correct answer
+        } while(random==this.displayCorrect);
+        display[random]= this.answers[1];           //put the first wrong answer in the random slot
+        this.displays[random]=1;                    //stores the reference
+        int index =0;                //the index in the display array
+        for(short i=0;i<this.answers.length;i++) {   //fill in the remaining blanks
+            while(display[index]!=null) {      //if the current index is full then skip 1 find next open one
+                index++;    //go up 1
+            }
+            display[index]=this.answers[i];      //fill the display that's next open from the next answers
+            this.displays[index]=i;                //store the reference
+        }
         return display;
+    }
+    /**Checks if the provided answer is correct
+     * 
+     * @param answered the index of the answer selected, based on the display array
+     * @return true if correct, false otherwise
+     */
+    public boolean checkAnswer(short answered) {
+        if(answered==this.displayCorrect) {   //if corresponds to the stored correct display return true
+            return true; 
+        } else {
+            return false;
+        }
     }
 }
