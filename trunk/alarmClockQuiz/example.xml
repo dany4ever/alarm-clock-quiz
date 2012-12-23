@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is an example XML file for how to setup our xml file to store the quiz-->
+
+<!-- The quiz tag starts the whole document and storage-->
+<quiz>
+    
+    <!-- This tag holds a single question to be displayed-->
+    <question>
+        
+        <!-- Free text in the question is the actual question being asked-->
+        What's the airspeed velocity of an unladen swallow?
+        
+        <!-- answers are in the answer tag the correct one has the attribute correct="true" -->
+        <answer correct="true">African or European?</answer>
+        
+        <!-- incorrect ones can be marked with correct="false" -->
+        <answer correct="false">I don't know that!</answer>
+        
+        <!-- or just not at all, and will be assumed incorrect -->
+        <answer>Blue, no Green. AHHHHHHHHHHHHHH</answer>
+    </question>
+</quiz>
