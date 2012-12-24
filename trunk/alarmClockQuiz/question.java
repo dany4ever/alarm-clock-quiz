@@ -68,12 +68,14 @@ public class question {
         display[random]= this.answers[1];           //put the first wrong answer in the random slot
         this.displays[random]=1;                    //stores the reference
         int index =0;                //the index in the display array
-        for(short i=0;i<this.answers.length;i++) {   //fill in the remaining blanks
+        for(short i=2;i<this.answers.length;i++) {   //fill in the remaining blanks
             while(display[index]!=null) {      //if the current index is full then skip 1 find next open one
                 index++;    //go up 1
             }
-            display[index]=this.answers[i];      //fill the display that's next open from the next answers
-            this.displays[index]=i;                //store the reference
+            if(index<display.length) {
+                display[index]=this.answers[i];      //fill the display that's next open from the next answers
+                this.displays[index]=i;                //store the reference
+            }
         }
         return display;
     }
