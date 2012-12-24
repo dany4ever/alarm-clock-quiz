@@ -41,14 +41,17 @@ public class Main {
      * @param args command-line arguments
      */
     public static void main(String[] args) {
-        
+        question[] input = parseQuizXML("/home/micah/Documents/netBeansProjects/AlarmClockQuiz/src/alarmClockQuiz/example.xml");     //parse it
+        for(int i=0;i<input.length;i++) { 
+            input[i].display();
+        }
     }
     /**Parses the XML file as questions and returns an array of the parsed information.
      * 
      * @param URL  the URL to the XML file
      * @return an array of the questions that were parsed.
      */
-    public question[] parseQuizXML(String URL) {
+    public static question[] parseQuizXML(String URL) {
         BufferedReader reader;
          String input="";
         try {                                    //try to read the file
@@ -65,22 +68,39 @@ public class Main {
         }       
         ArrayList<question> storage = new ArrayList<>();
         input=input.replaceAll("<!--\\p{Print}*?-->","");              //take out all comments first
-        Pattern pattern = Pattern.compile("<quiz>\\p{Print}+?</quiz>");  //match <quiz>as little other stuff</quiz>
+        Pattern pattern = Pattern.compile("<quiz>(\\p{Print}+?)</quiz>");  //match <quiz>as little other stuff</quiz>
         Matcher matcher= pattern.matcher(input);                          //compare it
         if(matcher.find()) {                         //if found stuff
-            input=matcher.group();             //get the quiz subsection
-            pattern = Pattern.compile("<question>\\p{Print}+?</question>");   //pattern to get question tags
+            input=matcher.group(1);             //get the quiz subsection
+            pattern = Pattern.compile("<question\\s*>(\\p{Print}+?)</question>");  //pattern to get question tags
             matcher = pattern.matcher(input);
+            String correctAnswer="";
             while(matcher.find()) {
-                String subInput=matcher.group();              //get the found string
-                pattern = Pattern.compile("<answer\\s+correct=\"true\"\\s*>\\p{Print}+?</answer>");  //find the correct answer
+                ArrayList<String> incorrect=new ArrayList<>();
+                String subInput=matcher.group(1);              //get the found string
+                pattern = Pattern.compile("<answer\\s+correct=\"true\"\\s*>(\\p{Print}+?)</answer>");  //find the correct answer
                 Matcher correct=pattern.matcher(subInput);
-                pattern =Pattern.compile("<answer\\s+(correct=\"false\")?\\s*>\\p{Print}+?</answer>");  //find incorrect answer
+                pattern =Pattern.compile("<answer\\s*(?:correct=\"false\")*\\s*>(\\p{Print}+?)</answer>");  //find incorrect answer
                 Matcher wrong=pattern.matcher(subInput);
-                
+                if(correct.find()) {            //if found the correct answer
+                    correctAnswer=correct.group(1);    //get the correct answer
+                }
+                while(wrong.find()) {                 //get all the wrong answers
+                    incorrect.add(wrong.group(1));    //get the answer
+                }
+                String[] incorrectAnswer=incorrect.toArray(new String[0]);   //switch it to a string array
+                subInput=subInput.replaceAll("(<answer\\p{Print}*?>\\p{Print}+?</answer>)", "");
+                //remove all the answers and new line characters, and leave the question juice
+                pattern = Pattern.compile("\\S*?(\\w\\p{Print}+)");      //cut out white-space
+                correct=pattern.matcher(subInput); 
+                String question="";
+                if(correct.find()) {
+                    question=correct.group(1);                      //the remaining 
+                }
+                storage.add(new question(question,correctAnswer,incorrectAnswer));
             }
         }
-        question[] output=new question[storage.size()];
+        question[] output=storage.toArray(new question[0]);  //switch the question arraylist to an array
         return output;
     }
 }
