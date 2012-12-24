@@ -89,4 +89,11 @@ public class question {
             return false;
         }
     }
+    public void display() {
+        System.out.println("Question:"+this.question);
+        System.out.println("Correct:"+this.answers[this.correct]);
+        for(int i=1;i<this.answers.length;i++) {
+            System.out.println("Answer:"+this.answers[i]);
+        }
+    }
 }
