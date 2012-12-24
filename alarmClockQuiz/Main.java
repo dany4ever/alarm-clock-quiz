@@ -42,8 +42,13 @@ public class Main {
      */
     public static void main(String[] args) {
         question[] input = parseQuizXML("/home/micah/Documents/netBeansProjects/AlarmClockQuiz/src/alarmClockQuiz/example.xml");     //parse it
+        String[] toDisplay;
         for(int i=0;i<input.length;i++) { 
-            input[i].display();
+            toDisplay=input[i].getDisplayAnswers();
+            System.out.println("Question: "+input[i].getQuestion());
+            for(int j=0;j<toDisplay.length;j++) {
+                System.out.println(toDisplay[j]);
+            }
         }
     }
     /**Parses the XML file as questions and returns an array of the parsed information.
