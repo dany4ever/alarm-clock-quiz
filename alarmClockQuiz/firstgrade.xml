@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This isn't complete yet. It is intended for a first grade audience. If you would like to add on or change anything feel free to do so. -->
+<!-- 
+  Copyright 2013 Rocky Mountain High School Technical Student Association
+ 
+  This file is a part of alarm-clock-quiz
+ 
+  alarm-clock-quiz is free software licensed under the GNU General Public License version 3.
+  You may redistribute and/or modify it under the terms of the GNU General Public License
+  version 3 as published by the Free Software Foundation.updater
+ 
+  alarm-clock-quiz comes without a warranty; without even the implied warranty of merchantability
+  or fitness for a particular purpose. See the GNU General Public License version 3 for more
+  details.
+ 
+  You should have received the GNU General Public License version 3 with this in GPL.txt
+  if not it is available at <http://www.gnu.org/licenses/gpl.txt>.
+ 
+  All resources for alarm-clock-quiz including: source code, compiled jar, documentation, and source
+  notes are available at <https://code.google.com/p/alarm-clock-quiz/>.
+-->
+<quiz>
+  <question>
+    Who was America's first president?
+      <answer correct="false">Barack Obama</answer>
+      <answer correct="true">George Washington</answer>
+      <answer correct="false">George Bush</answer>
+      <answer correct="false">Abe Lincoln</answer>
+   </question>
+   
+   <question>
+     How many fingers do you have?
+       <answer correct="true">10 (Ten)</answer>
+       <answer correct="false">6 (Six)</answer>
+       <answer correct="false">8 (Eight)</answer>
+       <answer correct="false">2 (Two)</answer>
+   </question>
+   
+   <question>
+     What is 5+3=  ?
+       <answer correct="false">10 (Ten)</answer>
+       <answer correct="false">2 (Two)</answer>
+       <answer correct="false">3 (Three)</answer>
+       <answer correct="true">8 (Eight)</answer>
+   </question>
+   
+   <question>
+     Bill has 1 dollar and 1 quarter.
+     How much money does he have?
+       <answer correct="true">$1.25</answer>
+       <answer correct="false">$1.00</answer>
+       <answer correct="false">$0.25</answer>
+       <answer correct="false">$0.00</answer>
+   </question>
+   
+   <question>
+     What is 7+2=  ?
+       <answer correct="false">10 (Ten)</answer>
+       <answer correct="false">1  (One)</answer>
+       <answer correct="true">9  (Nine)</answer>
+       <answer correct="false">4  (Four)</answer>
+   </question>
+   
+   <question>
+     What is 10-5=  ?
+       <answer correct="false">10 (Ten)</answer>
+       <answer correct="false">4 (Four)</answer>
+       <answer correct="false">6 (Six)</answer>
+       <answer correct="true">5 (Five)</answer>
+   </question>
+   
+   <question>
+     Where do sharks live?
+       <answer correct="false">Rivers</answer>
+       <answer correct="false">Nests</answer>
+       <answer correct="true">Ocean</answer>
+       <answer correct="false">Caves</answer>
+   </question>
+</quiz>
