@@ -23,6 +23,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.sql.Time;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -36,20 +37,21 @@ import java.util.regex.Pattern;
  * @since 22 December 2012
  */
 public class Main {
+    /** The number of questions to be asked before turning off*/
+    private short numQuestions;
+    /**The Category of questions Selected*/
+    private String category;
+    /**The time for the alarm to go off*/
+    private Time alarmTime;
+    /**the URL to the XML file containing the questions*/
+    private String questionFile;
+    /**The URL to the sound file being used for the alarm*/
+    private String sound;
     /**The start function will pass off onto others
      * 
      * @param args command-line arguments
      */
     public static void main(String[] args) {
-        question[] input = parseQuizXML("/home/micah/Documents/netBeansProjects/AlarmClockQuiz/src/alarmClockQuiz/example.xml");     //parse it
-        String[] toDisplay;
-        for(int i=0;i<input.length;i++) { 
-            toDisplay=input[i].getDisplayAnswers();
-            System.out.println("Question: "+input[i].getQuestion());
-            for(int j=0;j<toDisplay.length;j++) {
-                System.out.println(toDisplay[j]);
-            }
-        }
     }
     /**Parses the XML file as questions and returns an array of the parsed information.
      * 
