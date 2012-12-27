@@ -3,7 +3,7 @@
 
 <!-- The quiz tag starts the whole document and storage-->
 <quiz>
-    
+<!-- 1 --> <!-- Question Number -->    
     <!-- This tag holds a single question to be displayed-->
     <question>
         
@@ -17,16 +17,7 @@
         <answer correct="false">I don't know that!</answer>
         
         <!-- or just not at all, and will be assumed incorrect -->
-        <answer>Blue, no Green. AHHHHHHHHHHHHHH</answer>s
+        <answer>Blue, no Green. AHHHHHHHHHHHHHH</answer>
     </question>
-    <!-- <question   >
-        What is the answer to life, the universe, and everything?
-        
-        
-        
-        
-        <answer        >There is none, Ich bin den Uebermensch!</answer>
-        <answer correct="false"  >Q</answer>
-        <answer correct="true">42</answer>
-    </question> -->
+
 </quiz>
