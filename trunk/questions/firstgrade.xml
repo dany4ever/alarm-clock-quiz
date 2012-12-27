@@ -21,6 +21,7 @@ If you would like to add on or change anything feel free to do so. -->
   notes are available at <https://code.google.com/p/alarm-clock-quiz/>.
 -->
 <quiz>
+<!-- 1 -->
   <question>
     Who was America's first president?
       <answer correct="false">Barack Obama</answer>
@@ -28,7 +29,7 @@ If you would like to add on or change anything feel free to do so. -->
       <answer correct="false">George Bush</answer>
       <answer correct="false">Abe Lincoln</answer>
    </question>
-   
+<!-- 2 -->   
    <question>
      How many fingers do you have?
        <answer correct="true">10 (Ten)</answer>
@@ -36,7 +37,7 @@ If you would like to add on or change anything feel free to do so. -->
        <answer correct="false">8 (Eight)</answer>
        <answer correct="false">2 (Two)</answer>
    </question>
-   
+<!-- 3 -->   
    <question>
      What is 5+3=  ?
        <answer correct="false">10 (Ten)</answer>
@@ -44,7 +45,7 @@ If you would like to add on or change anything feel free to do so. -->
        <answer correct="false">3 (Three)</answer>
        <answer correct="true">8 (Eight)</answer>
    </question>
-   
+<!-- 4 -->   
    <question>
      Bill has 1 dollar and 1 quarter.
      How much money does he have?
@@ -53,7 +54,7 @@ If you would like to add on or change anything feel free to do so. -->
        <answer correct="false">$0.25</answer>
        <answer correct="false">$0.00</answer>
    </question>
-   
+<!-- 5 -->   
    <question>
      What is 7+2=  ?
        <answer correct="false">10 (Ten)</answer>
@@ -61,7 +62,7 @@ If you would like to add on or change anything feel free to do so. -->
        <answer correct="true">9  (Nine)</answer>
        <answer correct="false">4  (Four)</answer>
    </question>
-   
+<!-- 6 -->   
    <question>
      What is 10-5=  ?
        <answer correct="false">10 (Ten)</answer>
@@ -69,7 +70,7 @@ If you would like to add on or change anything feel free to do so. -->
        <answer correct="false">6 (Six)</answer>
        <answer correct="true">5 (Five)</answer>
    </question>
-   
+<!-- 7 -->   
    <question>
      Where do sharks live?
        <answer correct="false">Rivers</answer>
@@ -77,7 +78,7 @@ If you would like to add on or change anything feel free to do so. -->
        <answer correct="true">Ocean</answer>
        <answer correct="false">Caves</answer>
    </question>
-   
+<!-- 8 -->   
    <question>
      Which is 3 O'Clock?
        <answer correct="true">3:00</answer>
@@ -85,7 +86,7 @@ If you would like to add on or change anything feel free to do so. -->
        <answer correct="false">1:30</answer>
        <answer correct="false">4:00</answer>
   </question>
-  
+<!-- 9 -->  
   <question>
     You have 2 dimes and 1 nickel.
     How much money do you have?
@@ -94,7 +95,7 @@ If you would like to add on or change anything feel free to do so. -->
       <answer correct="false">$0.15</answer>
       <answer correct="true">$0.25</answer>
   </question>
-  
+<!-- 10 -->  
   <question>
     Which number is missing from the pattern?
     5, 10, 15, 20, 25, __, 35, 40, ...
@@ -103,7 +104,7 @@ If you would like to add on or change anything feel free to do so. -->
       <answer correct="false">34</answer>
       <answer correct="false">45</answer>
   </question>
-  
+<!-- 11 -->  
   <question>
     In what subject do you learn about Earth, Animals, and living things?
       <answer correct="false">English</answer>
@@ -111,4 +112,5 @@ If you would like to add on or change anything feel free to do so. -->
       <answer correct="true">Science</answer>
       <answer correct="false">Gym (P.E.)</answer>
   </question>
+  
 </quiz>
