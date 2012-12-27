@@ -24,10 +24,15 @@ package alarmClockQuiz;
  * @since 21 December 2012
  */
 public class question {
+    /** The Actual question to be asked*/
     private String question;   //the actual question
+    /** All displayed answers*/
     private String[] answers;  //all possible answers
+    /** A reference to the correct answer in the array based on it's index*/
     private short correct;     //reference to the correct answer
+    /** An array of the displayed answers, references the actual ones by index*/
     private short[] displays;  //reference to the order of the displayed answers
+    /** the correct answer, based on it's place in the displayed answer*/
     private short displayCorrect; //references the correct answer displayed, based on the display
     /** The main constructor of this object
      * 
