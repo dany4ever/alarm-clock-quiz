@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This isn't complete yet. It is intended for a first grade audience.
-If you would like to add on or change anything feel free to do so. -->
+<!-- This is the first set of questions for alarm-clock-quiz. It is intended for a first grade audience.
+If you would like to add on or change anything feel free to do so. All questions were based off of the opinionated learning curriculum of
+the Rocky Mountain High School Technology Student Association. Future updates will contain different questions based off of similar or different subjects.
+They are intended to educate students about S.T.E.M. applications and ideals.-->
 <!-- 
   Copyright 2013 Rocky Mountain High School Technical Student Association
  
@@ -106,11 +108,85 @@ If you would like to add on or change anything feel free to do so. -->
   </question>
 <!-- 11 -->  
   <question>
-    In what subject do you learn about Earth, Animals, and living things?
+    In what subject do you learn about Earth, Animals, and Living Things?
       <answer correct="false">English</answer>
       <answer correct="false">Math</answer>
       <answer correct="true">Science</answer>
       <answer correct="false">Gym (P.E.)</answer>
+  </question>
+<!-- 12 -->
+  <question>
+    What is 12+2=  ?
+      <answer correct="true">14 (Fourteen)</answer>
+      <answer correct="false">13 (Thirteen)</answer>
+      <answer correct="false">10 (Ten)</answer>
+      <answer correct="false">16 (Sixteen)</answer>
+  </question>
+<!-- 13 -->
+  <question>
+    In what subject do you learn about Addition, Subtraction, and Money?
+      <answer correct="true">Math</answer>
+      <answer correct="false">Science</answer>
+      <answer correct="false">English</answer>
+      <answer correct="false">History</answer>
+  </question>
+<!-- 14 -->
+  <question>
+     What is 12 O'Clock?
+       <answer correct="false">2:00</answer>
+       <answer correct="false">1:20</answer>
+       <answer correct="false">11:20</answer>
+       <answer correct="true">12:00</answer>
+  </question>
+<!-- 15 -->
+  <question>
+    Which number is missing from the pattern?
+    4, 8, __, 16, 20, 24, 28, ...
+      <answer correct="false">10</answer>
+      <answer correct="true">12</answer>
+      <answer correct="false">14</answer>
+      <answer correct="false">9</answer>
+  </question>
+<!-- 16 -->
+  <question>
+    How many Continents are on Earth?
+      <answer correct="false">4 (Four)</answer>
+      <answer correct="false">8 (Eight)</answer>
+      <answer correct="false">6 (Six)</answer>
+      <answer correct="true">7 (Seven)</answer>
+  </question>
+<!-- 17 -->
+  <question>
+    Jim has 10 Cents. ($0.10)
+    What coin does he have?
+      <answer correct="false">Nickel</answer>
+      <answer correct="false">Quarter</answer>
+      <answer correct="true">Dime</answer>
+      <answer correct="false">Penny</answer>
+  </question>
+<!-- 18 -->
+  <question>
+    How many Oceans are on Earth?
+      <answer correct="true">5 (Five)</answer>
+      <answer correct="false">7 (Seven)</answer>
+      <answer correct="false">4 (Four)</answer>
+      <answer correct="false">1 (One)</answer>
+  </question>
+<!-- 19 -->
+  <question>
+    How many sides does a Square have?
+      <answer correct="false">3 (Three)</answer>
+      <answer correct="false">2 (Two)</answer>
+      <answer correct="false">5 (Five)</answer>
+      <answer correct="true">4 (Four)</answer>
+  </question>
+<!-- 20 -->
+  <question>
+    Which number is ODD?
+      <answer correct="true">3 (Three)</answer>
+      <answer correct="false">2 (Two)</answer>
+      <answer correct="false">6 (Six)</answer>
+      <answer correct="false">4 (Four)</answer>
   </question>
   
 </quiz>
