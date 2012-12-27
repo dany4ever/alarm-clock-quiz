@@ -80,9 +80,35 @@ If you would like to add on or change anything feel free to do so. -->
    
    <question>
      Which is 3 O'Clock?
-     <answer correct="true">3:00</answer>
-     <answer correct="false">3:30</answer>
-     <answer correct="false">1:30</answer>
-     <answer correct="false">4:00</answer>
+       <answer correct="true">3:00</answer>
+       <answer correct="false">3:30</answer>
+       <answer correct="false">1:30</answer>
+       <answer correct="false">4:00</answer>
+  </question>
+  
+  <question>
+    You have 2 dimes and 1 nickel.
+    How much money do you have?
+      <answer correct="false">$0.35</answer>
+      <answer correct="false">$25.00</answer>
+      <answer correct="false">$0.15</answer>
+      <answer correct="true">$0.25</answer>
+  </question>
+  
+  <question>
+    Which number is missing from the pattern?
+    5, 10, 15, 20, 25, __, 35, 40, ...
+      <answer correct="false">26</answer>
+      <answer correct="true">30</answer>
+      <answer correct="false">34</answer>
+      <answer correct="false">45</answer>
+  </question>
+  
+  <question>
+    In what subject do you learn about Earth, Animals, and living things?
+      <answer correct="false">English</answer>
+      <answer correct="false">Math</answer>
+      <answer correct="true">Science</answer>
+      <answer correct="false">Gym (P.E.)</answer>
   </question>
 </quiz>
