@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This is the first set of questions for alarm-clock-quiz. It is intended for a ____ grade audience.
+<!-- This is the first set of questions for alarm-clock-quiz. It is intended for a third grade audience.
 If you would like to add on or change anything feel free to do so. All questions were based off of the opinionated learning curriculum of
 the Rocky Mountain High School Technology Student Association. Future updates will contain different questions based 
 off of similar or different subjects. -->
@@ -49,27 +49,28 @@ off of similar or different subjects. -->
    </question>
 <!-- 4 -->   
    <question>
-     
-       <answer correct="true"></answer>
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
+     What is 144/12=  ?
+       <answer correct="true">12</answer>
+       <answer correct="false">11</answer>
+       <answer correct="false">132</answer>
+       <answer correct="false">156</answer>
    </question>
 <!-- 5 -->   
    <question>
-     
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="true"></answer>
-       <answer correct="false"></answer>
+     a-2=1
+     a=  ?
+       <answer correct="false">-1</answer>
+       <answer correct="false">1</answer>
+       <answer correct="true">3</answer>
+       <answer correct="false">2</answer>
    </question>
 <!-- 6 -->   
    <question>
-     
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="true"></answer>
+     What is 6x7=  ?
+       <answer correct="false">32</answer>
+       <answer correct="false">48</answer>
+       <answer correct="false">36</answer>
+       <answer correct="true">42</answer>
    </question>
 <!-- 7 -->   
    <question>
