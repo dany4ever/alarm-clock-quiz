@@ -41,11 +41,12 @@ off of similar or different subjects. -->
    </question>
 <!-- 3 -->   
    <question>
-     What is 3.56+.24=  ?
-       <answer correct="false">3.60</answer>
-       <answer correct="false">4.00</answer>
-       <answer correct="false">3.80</answer>
-       <answer correct="true">3.90</answer>
+     What is 3/4+2/4=  ?
+     (Fractions)
+     <answer correct="false">1 and 1/4</answer>
+     <answer correct="false">5/8</answer>
+     <answer correct="false">1/4</answer>
+     <answer correct="true">0</answer>
    </question>
 <!-- 4 -->   
    <question>
