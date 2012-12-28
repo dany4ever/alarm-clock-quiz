@@ -20,6 +20,7 @@
 package alarmClockQuiz;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -44,21 +45,23 @@ public class Main {
     /**The time for the alarm to go off*/
     private static Time alarmTime;
     /**the URL to the XML file containing the questions*/
-    private static String questionFile;
+    private static File questionFile;
     /**The URL to the sound file being used for the alarm*/
-    private static String sound;
+    private static File sound;
     /**The start function will pass off onto others
      * 
      * @param args command-line arguments
      */
     public static void main(String[] args) {
+        parseConfig("/home/micah/Documents/netBeansProjects/AlarmClockQuiz/src/alarmClockQuiz/alarmClock.conf");
+        question[] Questions= parseQuizXML(Main.questionFile);
     }
     /**Parses the XML file as questions and returns an array of the parsed information.
      * 
      * @param URL  the URL to the XML file
      * @return an array of the questions that were parsed.
      */
-    public static question[] parseQuizXML(String URL) {
+    public static question[] parseQuizXML(File URL) {
         BufferedReader reader;
          String input="";
         try {                                    //try to read the file
@@ -110,11 +113,53 @@ public class Main {
         question[] output=storage.toArray(new question[0]);  //switch the question arraylist to an array
         return output;
     }
-    /**Parses the configuration from the File given.
+    /**Parses the configuration from the File given, and stores them to the field
      * 
      * @param URL The URL to the configuration file
      */
     public static void parseConfig(String URL) {
-        
-    }
+        BufferedReader reader;
+        Pattern pattern =Pattern.compile("\\s*(\\w+)\\s*=\\s*([\\w\\/:.]+)");  //the regex to get the values from the config file
+        String buffer;
+        Matcher matcher;
+        String directory="";             //the string to parse as the directory
+        File file = new File(URL);      //parses the url as a file
+        if(file.exists()) {
+            try {
+                reader=new BufferedReader(new FileReader(file));   //open stream
+                while((buffer=reader.readLine())!=null) {            //reads each line
+                    matcher=pattern.matcher(buffer);               //hooks up the matcher
+                    if(matcher.find()) {                     //if found input then let's store this
+                        switch(matcher.group(1)) {        //get each input 
+                            case "time": Main.alarmTime= new Time(Long.parseLong(matcher.group(2)));  //parses the string as a long, and then as a time
+                                        break;
+                            case "numQuestions": Main.numQuestions = Short.parseShort(matcher.group(2)); //parse the number of questions
+                                        break;
+                            case "qDir": directory=matcher.group(2);   //get the directory
+                                        break;
+                            case "selection": Main.category= matcher.group(2);  //get the selection
+                                        break;
+                            case"sound": Main.sound =new File(matcher.group(2));     //get the sound file
+                        }
+                    }
+                }
+                reader.close();             //close the stream
+            } catch (IOException ex) {
+                Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+        if(!directory.equals("")) {            //if got directory parsed then 
+            Main.questionFile = new File(directory);
+            String Compare = Main.category+".xml";   //append .xml to find to compare and find the right file
+            if(Main.questionFile.exists()&&Main.questionFile.isDirectory()) {  //test if it exists, and is a folder
+                File[] files = Main.questionFile.listFiles();
+                for(int i=0;i<files.length;i++) {              //cycle through the array and check each one
+                    if(files[i].getName().equalsIgnoreCase(Compare)) {  //compare it
+                        Main.questionFile= files[i];       //get the file
+                        break;
+                    }
+                }
+            }
+        }
+        }
 }
