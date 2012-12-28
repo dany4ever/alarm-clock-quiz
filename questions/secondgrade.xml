@@ -65,75 +65,73 @@ If you would like to add on or change anything feel free to do so. -->
    </question>
 <!-- 6 -->   
    <question>
-     
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="true"></answer>
+     What is 66 rounded to the the nearest tenth?
+       <answer correct="false">67</answer>
+       <answer correct="false">60</answer>
+       <answer correct="false">66</answer>
+       <answer correct="true">70</answer>
    </question>
 <!-- 7 -->   
    <question>
-     
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="true"></answer>
-       <answer correct="false"></answer>
+     What is 54 rounded to the nearest tenth?
+       <answer correct="false">60</answer>
+       <answer correct="false">55</answer>
+       <answer correct="true">50</answer>
+       <answer correct="false">54</answer>
    </question>
 <!-- 8 -->   
    <question>
-     
-       <answer correct="true"></answer>
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
+     What state of matter is Ice in?
+       <answer correct="true">Solid</answer>
+       <answer correct="false">Gas</answer>
+       <answer correct="false">Liquid</answer>
+       <answer correct="false">Plasma</answer>
   </question>
 <!-- 9 -->  
   <question>
-    
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="true"></answer>
+    Which seasonal solstice occurs on December 21st?
+      <answer correct="false">Winter Solstice</answer>
+      <answer correct="false">Summer Solstice</answer>
+      <answer correct="false">Autumn Solstice</answer>
+      <answer correct="true">Spring Solstice</answer>
   </question>
 <!-- 10 -->  
   <question>
-    
-      <answer correct="false"></answer>
-      <answer correct="true"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
+    What is 5x5=  ?
+      <answer correct="false">20</answer>
+      <answer correct="true">25</answer>
+      <answer correct="false">10</answer>
+      <answer correct="false">0</answer>
   </question>
 <!-- 11 -->  
   <question>
-    
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="true"></answer>
-      <answer correct="false"></answer>
+    Is a Plant Living or Non-Living?
+      <answer correct="false">Non-Living</answer>
+      <answer correct="true">Living</answer>
   </question>
 <!-- 12 -->
   <question>
-    
-      <answer correct="true"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
+    What state of matter is water in?
+      <answer correct="true">Liquid</answer>
+      <answer correct="false">Solid</answer>
+      <answer correct="false">Gas</answer>
+      <answer correct="false">Plasma</answer>
   </question>
 <!-- 13 -->
   <question>
-    
-      <answer correct="true"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
+    What is 20-8=  ?
+      <answer correct="true">12</answer>
+      <answer correct="false">10</answer>
+      <answer correct="false">28</answer>
+      <answer correct="false">14</answer>
   </question>
 <!-- 14 -->
   <question>
-     
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="true"></answer>
+     Which is 3:30 pm?
+       <answer correct="false">Three-Thirty am</answer>
+       <answer correct="false">Thirty-Three pm</answer>
+       <answer correct="false">Three O'Clock pm</answer>
+       <answer correct="true">Three-Thirty pm</answer>
   </question>
 <!-- 15 -->
   <question>
