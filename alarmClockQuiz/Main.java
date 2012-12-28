@@ -38,15 +38,15 @@ import java.util.regex.Pattern;
  */
 public class Main {
     /** The number of questions to be asked before turning off*/
-    private short numQuestions;
+    private static short numQuestions;
     /**The Category of questions Selected*/
-    private String category;
+    private static String category;
     /**The time for the alarm to go off*/
-    private Time alarmTime;
+    private static Time alarmTime;
     /**the URL to the XML file containing the questions*/
-    private String questionFile;
+    private static String questionFile;
     /**The URL to the sound file being used for the alarm*/
-    private String sound;
+    private static String sound;
     /**The start function will pass off onto others
      * 
      * @param args command-line arguments
@@ -109,5 +109,12 @@ public class Main {
         }
         question[] output=storage.toArray(new question[0]);  //switch the question arraylist to an array
         return output;
+    }
+    /**Parses the configuration from the File given.
+     * 
+     * @param URL The URL to the configuration file
+     */
+    public static void parseConfig(String URL) {
+        
     }
 }
