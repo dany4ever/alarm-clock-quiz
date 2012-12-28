@@ -33,11 +33,11 @@ off of similar or different subjects. -->
    </question>
 <!-- 2 -->   
    <question>
-     
-       <answer correct="true"></answer>
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
+     Who Killed the first Secretary of the Treasury?
+       <answer correct="true">Aaron Burr</answer>
+       <answer correct="false">Alexander Hamilton</answer>
+       <answer correct="false">John Monroe</answer>
+       <answer correct="false">Henry Knox</answer>
    </question>
 <!-- 3 -->   
    <question>
