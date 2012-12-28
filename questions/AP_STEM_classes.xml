@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is the first set of questions for alarm-clock-quiz. It is intended for a third grade audience.
+If you would like to add on or change anything feel free to do so. All questions were based off of the opinionated learning curriculum of
+the Rocky Mountain High School Technology Student Association. Future updates will contain different questions based 
+off of similar or different subjects. -->
+<!-- 
+  Copyright 2013 Rocky Mountain High School Technical Student Association
+ 
+  This file is a part of alarm-clock-quiz
+ 
+  alarm-clock-quiz is free software licensed under the GNU General Public License version 3.
+  You may redistribute and/or modify it under the terms of the GNU General Public License
+  version 3 as published by the Free Software Foundation.updater
+ 
+  alarm-clock-quiz comes without a warranty; without even the implied warranty of merchantability
+  or fitness for a particular purpose. See the GNU General Public License version 3 for more
+  details.
+ 
+  You should have received the GNU General Public License version 3 with this in GPL.txt
+  if not it is available at <http://www.gnu.org/licenses/gpl.txt>.
+ 
+  All resources for alarm-clock-quiz including: source code, compiled jar, documentation, and source
+  notes are available at <https://code.google.com/p/alarm-clock-quiz/>.
+-->
+
+<quiz>
+    <question>
+        What is the derivative of f(x), if f(x)=x^2
+        <answer correct="true">f'(x)=2x</answer>
+        <answer>f'(x)=(1/3)(x^3)</answer>
+        <answer>f'(x)=2x^2</answer>
+        <answer>f'(x)=2</answer>
+    </question>
+    <question>
+        What type of acid is phosphoric acid?
+        <answer correct="true">Weak, triprotic acid</answer>
+        <answer>Strong, monoprotic acid</answer>
+        <answer>Strong, diprotic acid</answer>
+        <answer>Weak, monoprotic acid</answer>
+    </question>
+    <question>
+        If a mass of 2kg is moving with a velocity of 5m/s, what is its Kinetic Energy?
+        <answer correct="true">5J</answer>
+        <answer>10J</answer>
+        <answer>2.5J</answer>
+        <answer>.5J</answer>
+    </question>
+</quiz>
