@@ -33,19 +33,19 @@ off of similar or different subjects. -->
    </question>
 <!-- 2 -->   
    <question>
-     
-       <answer correct="true"></answer>
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
+     What is 10x12=  ?
+       <answer correct="true">120</answer>
+       <answer correct="false">22</answer>
+       <answer correct="false">144</answer>
+       <answer correct="false">121</answer>
    </question>
 <!-- 3 -->   
    <question>
-     
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="true"></answer>
+     What is 3.56+.24=  ?
+       <answer correct="false">3.60</answer>
+       <answer correct="false">4.00</answer>
+       <answer correct="false">3.80</answer>
+       <answer correct="true">3.90</answer>
    </question>
 <!-- 4 -->   
    <question>
