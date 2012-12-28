@@ -135,51 +135,51 @@ If you would like to add on or change anything feel free to do so. -->
   </question>
 <!-- 15 -->
   <question>
-    
-      <answer correct="false"></answer>
-      <answer correct="true"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
+     What do you use to type on a computer?
+      <answer correct="false">Monitor</answer>
+      <answer correct="true">Key-Board</answer>
+      <answer correct="false">Mouse</answer>
+      <answer correct="false">Pencil</answer>
   </question>
 <!-- 16 -->
   <question>
-    
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="true"></answer>
+     What unit of measurment do you use to measure a sheet of paper?
+      <answer correct="false">Gallons</answer>
+      <answer correct="false">Ounces</answer>
+      <answer correct="false">Feet</answer>
+      <answer correct="true">Inches</answer>
   </question>
 <!-- 17 -->
   <question>
-    
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="true"></answer>
-      <answer correct="false"></answer>
+     What is 8 divided by 4?
+      <answer correct="false">12</answer>
+      <answer correct="false">4</answer>
+      <answer correct="true">2</answer>
+      <answer correct="false">0</answer>
   </question>
 <!-- 18 -->
   <question>
-    
-      <answer correct="true"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
+     What is 50+39=  ?
+      <answer correct="true">89</answer>
+      <answer correct="false">11</answer>
+      <answer correct="false">79</answer>
+      <answer correct="false">99</answer>
   </question>
 <!-- 19 -->
   <question>
-    
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="true"></answer>
+     What is 3x10=  ?
+      <answer correct="false">7</answer>
+      <answer correct="false">13</answer>
+      <answer correct="false">300</answer>
+      <answer correct="true">30</answer>
   </question>
 <!-- 20 -->
   <question>
-    
-      <answer correct="true"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
+     What is your favorite app?
+      <answer correct="true">Alarm Clock Quiz</answer>
+      <answer correct="false">Angry Birds</answer>
+      <answer correct="false">Plants Vs. Zombies</answer>
+      <answer correct="false">Google Maps</answer>
   </question>
   
 </quiz>
