@@ -23,7 +23,7 @@
 
 <!-- The quiz tag starts the whole document and storage-->
 <quiz>
-<!-- 1 --> <!-- Question Number -->    
+<!-- 1 --> <!-- Question Number in the form of notes. (Optional) -->    
     <!-- This tag holds a single question to be displayed-->
     <question>
         
@@ -41,3 +41,4 @@
     </question>
 
 </quiz>
+
