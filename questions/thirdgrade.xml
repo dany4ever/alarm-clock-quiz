@@ -75,115 +75,115 @@ off of similar or different subjects. -->
    </question>
 <!-- 7 -->   
    <question>
-     
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="true"></answer>
-       <answer correct="false"></answer>
+     In the number 7,645, what digit is in the thousands place?
+       <answer correct="false">4</answer>
+       <answer correct="false">6</answer>
+       <answer correct="true">7</answer>
+       <answer correct="false">5</answer>
    </question>
 <!-- 8 -->   
    <question>
-     
-       <answer correct="true"></answer>
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
+     In the problem 6 divided by 2 equals 3, which number id the divisor?
+       <answer correct="true">2</answer>
+       <answer correct="false">3</answer>
+       <answer correct="false">6</answer>
+       <answer correct="false">None of them</answer>
   </question>
 <!-- 9 -->  
   <question>
-    
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="true"></answer>
+    What force attracts everything with mass towards the center of Earth?
+      <answer correct="false">Mass</answer>
+      <answer correct="false">Weight</answer>
+      <answer correct="false">The Force</answer>
+      <answer correct="true">Gravity</answer>
   </question>
 <!-- 10 -->  
   <question>
-    
-      <answer correct="false"></answer>
-      <answer correct="true"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
+    How many planets are in our solar system?
+      <answer correct="false">7</answer>
+      <answer correct="true">8</answer>
+      <answer correct="false">9</answer>
+      <answer correct="false">Infinite</answer>
   </question>
 <!-- 11 -->  
   <question>
-    
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="true"></answer>
-      <answer correct="false"></answer>
+    What do humans breathe in order to survive?
+      <answer correct="false">Helium</answer>
+      <answer correct="false">Nitrogen</answer>
+      <answer correct="true">Oxygen</answer>
+      <answer correct="false">Sulfuric Acid</answer>
   </question>
 <!-- 12 -->
   <question>
-    
-      <answer correct="true"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
+    What part of a plant gives it water?
+      <answer correct="true">Roots</answer>
+      <answer correct="false">Stem</answer>
+      <answer correct="false">Leaves</answer>
+      <answer correct="false">Petals</answer>
   </question>
 <!-- 13 -->
   <question>
-    
-      <answer correct="true"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
+    Which organism is extinct?
+      <answer correct="true">Dinosuar</answer>
+      <answer correct="false">Hippos</answer>
+      <answer correct="false">Wolves</answer>
+      <answer correct="false">Rabbits</answer>
   </question>
 <!-- 14 -->
   <question>
-     
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="false"></answer>
-       <answer correct="true"></answer>
+     What device are you using right now?
+       <answer correct="false">Computer</answer>
+       <answer correct="false">Telvision</answer>
+       <answer correct="false">iPad</answer>
+       <answer correct="true">Cell Phone or iPod</answer>
   </question>
 <!-- 15 -->
   <question>
-    
-      <answer correct="false"></answer>
-      <answer correct="true"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
+    What computer program do you use to type documents?
+      <answer correct="false">Google</answer>
+      <answer correct="true">Microsoft Office Word</answer>
+      <answer correct="false">Microsoft Office Powerpoint</answer>
+      <answer correct="false">Yahoo</answer>
   </question>
 <!-- 16 -->
   <question>
-    
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="true"></answer>
+    What is 9x9=  ?
+      <answer correct="false">108</answer>
+      <answer correct="false">18</answer>
+      <answer correct="false">64</answer>
+      <answer correct="true">81</answer>
   </question>
 <!-- 17 -->
   <question>
-    
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="true"></answer>
-      <answer correct="false"></answer>
+    In the number 14,789, what number is in the hundreds place?
+      <answer correct="false">8</answer>
+      <answer correct="false">4</answer>
+      <answer correct="true">1</answer>
+      <answer correct="false">7</answer>
   </question>
 <!-- 18 -->
   <question>
-    
-      <answer correct="true"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
+    What unit would you measure a cup of coffee with?
+      <answer correct="true">Fluid Onces</answer>
+      <answer correct="false">Gallons</answer>
+      <answer correct="false">Inches</answer>
+      <answer correct="false">Feet</answer>
   </question>
 <!-- 19 -->
   <question>
-    
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="true"></answer>
+    What unit would you measure the weight of a human with?
+      <answer correct="false">Inches</answer>
+      <answer correct="false">Feet</answer>
+      <answer correct="false">Ounces</answer>
+      <answer correct="true">Pounds</answer>
   </question>
 <!-- 20 -->
   <question>
-    
-      <answer correct="true"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
-      <answer correct="false"></answer>
+    What app are you using right now?
+      <answer correct="true">Alarm Clock Quiz</answer>
+      <answer correct="false">Angry Birds</answer>
+      <answer correct="false">Calculator</answer>
+      <answer correct="false">Cell Phone</answer>
   </question>
   
 </quiz>
